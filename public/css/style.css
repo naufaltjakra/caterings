@@ -1,0 +1,435 @@
+html, body, h1, h2, h3, h4, h5, h6, p, span, ul, li, a {
+  font-family: 'Work Sans';
+  color: #252525;
+  letter-spacing: 0.08px; }
+
+a:hover, a:focus {
+  text-decoration: none; }
+
+hr {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.box-inner {
+  padding-right: 0;
+  padding-left: 0; }
+
+.box-outter {
+  padding-left: 80px;
+  padding-right: 80px; }
+
+.control-margin {
+  margin-right: 0;
+  margin-left: 0; }
+
+.section-foo {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+.dropdown {
+  display: inline-block; }
+
+::-webkit-scrollbar {
+  width: 12px; }
+
+::-webkit-scrollbar-track {
+  background-color: #dfdfdf; }
+
+::-webkit-scrollbar-thumb {
+  border: 2px solid #dfdfdf;
+  background-color: #878787; }
+
+::-moz-selection {
+  background-color: rgba(253, 111, 0, 0.55); }
+
+::selection {
+  background-color: rgba(253, 111, 0, 0.55); }
+
+.button-solid-sm {
+  color: white;
+  background-color: #fd6f00;
+  padding: 7px 20px;
+  border: 1px solid #fd6f00;
+  border-radius: 3px;
+  transition: 300ms all ease;
+  text-align: center;
+  font-size: 16px; }
+
+.button-solid-sm:hover {
+  color: #fd6f00;
+  background-color: white; }
+
+.button-outline-bg {
+  margin-top: 20px;
+  font-size: 15px;
+  color: #fd6f00;
+  padding: 14px 24px;
+  border: 1px solid #fd6f00;
+  border-radius: 3px;
+  transition: 300ms all ease; }
+
+.button-outline-bg:hover {
+  color: white;
+  border: 1px solid #fd6f00;
+  background-color: #fd6f00; }
+
+.navigation {
+  position: relative;
+  min-height: 70px;
+  border-bottom: 1px solid #dcdbd9; }
+
+.navigation-basic {
+  z-index: 20;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 25px;
+  background-color: white; }
+
+.navigation-left {
+  float: left; }
+  .navigation-left a {
+    font-family: 'Work Sans';
+    font-weight: 500;
+    transition: 300ms all ease;
+    margin-right: 10px;
+    margin-left: 10px; }
+  .navigation-left a:hover {
+    color: #fd6f00; }
+
+.navigation-right {
+  float: right; }
+  .navigation-right a {
+    font-family: 'Work Sans';
+    font-weight: 500;
+    transition: 300ms all ease;
+    margin-right: 10px;
+    margin-left: 10px; }
+  .navigation-right a:hover {
+    color: #fd6f00; }
+  .navigation-right .login {
+    color: white;
+    background-color: #fd6f00;
+    padding: 7px 20px;
+    border: 1px solid #fd6f00;
+    border-radius: 3px;
+    transition: 300ms all ease; }
+  .navigation-right .login:hover {
+    color: #fd6f00;
+    background-color: white; }
+
+.logo-main {
+  width: 130px;
+  top: 15px;
+  left: 45%;
+  margin: 0 auto;
+  position: absolute; }
+
+.footer-control {
+  border-top: 1px solid #dcdbd9; }
+
+.top-footer {
+  padding: 50px 100px; }
+  .top-footer .logo-footer {
+    width: 130px; }
+  .top-footer .tagline {
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 12px;
+    color: #878787;
+    margin-top: 20px; }
+  .top-footer .list-footer {
+    list-style: none; }
+    .top-footer .list-footer li a {
+      color: #878787;
+      line-height: 1.7;
+      transition: 300ms all ease; }
+    .top-footer .list-footer li a:hover {
+      color: #252525; }
+    .top-footer .list-footer .title-list-footer {
+      margin-bottom: 7px;
+      font-family: 'Work Sans';
+      font-weight: 500;
+      color: #252525;
+      text-transform: uppercase;
+      font-size: 15px; }
+    .top-footer .list-footer .title-info {
+      font-family: 'Work Sans';
+      font-weight: 500;
+      color: #252525;
+      text-transform: uppercase;
+      font-size: 13px; }
+    .top-footer .list-footer .info-whatsapp {
+      margin-top: 15px;
+      color: #878787; }
+    .top-footer .list-footer .hari-kerja {
+      color: #878787;
+      font-size: 12px; }
+    .top-footer .list-footer .payment-method {
+      width: 60%; }
+
+.bottom-footer {
+  padding: 20px 100px;
+  border-top: 1px solid #dcdbd9; }
+
+.copyright-right [class^='social'] {
+  width: 20px;
+  margin-right: 20px;
+  opacity: .7;
+  transition: 300ms all ease; }
+
+.copyright-right [class^='social']:hover {
+  opacity: 1; }
+
+.copyright-left {
+  margin-top: 2px;
+  font-size: 12px;
+  color: #878787; }
+  .copyright-left .heart {
+    color: #e91e63;
+    margin: 0 5px; }
+
+.copyright-right {
+  float: right;
+  text-align: right; }
+
+.unauthorized-box {
+  height: 450px;
+  text-align: center;
+  background-color: #f3f3f3; }
+  .unauthorized-box .content-unauthorized {
+    position: relative;
+    top: 90px; }
+    .unauthorized-box .content-unauthorized h1 {
+      color: #fd6f00;
+      border-radius: 3px;
+      margin: 0 auto;
+      width: 400px;
+      border: 1px solid #fd6f00;
+      padding: 15px 27px; }
+    .unauthorized-box .content-unauthorized p {
+      margin-top: 20px;
+      color: #878787; }
+    .unauthorized-box .content-unauthorized .warningz {
+      font-size: 90px;
+      color: #CDCDCD;
+      margin-bottom: 20px; }
+
+.header-box {
+  width: 100%;
+  height: 670px; }
+
+.image-header-box {
+  position: absolute;
+  left: -20px;
+  top: 120px; }
+
+.header-menu {
+  font-family: 'Work Sans';
+  font-weight: 400;
+  color: #fd6f00;
+  line-height: 1.3;
+  margin-bottom: 30px; }
+
+.header-content {
+  top: 80px; }
+
+.subtitle-header {
+  color: #878787;
+  font-size: 15px;
+  margin-bottom: 30px; }
+
+.video-box:hover .play-video {
+  color: #fd6f00; }
+
+.video-box {
+  position: relative;
+  top: 100px;
+  display: block; }
+  .video-box .video-player {
+    width: 30px; }
+  .video-box .play-video {
+    transition: 300ms all ease;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    margin-left: 10px;
+    font-size: 15px; }
+  .video-box .hr-dash {
+    position: relative;
+    top: -2px;
+    -webkit-align-content: left;
+    -ms-flex-line-pack: left;
+    align-content: left;
+    float: left;
+    width: 320px;
+    border-top: 3px dotted #dcdbd9; }
+
+.control-menu-top {
+  display: block;
+  clear: both; }
+  .control-menu-top .box-menu:hover {
+    color: #fd6f00;
+    box-shadow: 0px 0px 20px 0px #dcdbd9; }
+  .control-menu-top .box-menu {
+    transition: 300ms all ease;
+    padding: 20px 30px;
+    width: 210px;
+    border: 1px solid #dcdbd9;
+    border-radius: 5px; }
+  .control-menu-top .paket {
+    width: 40px;
+    float: left;
+    margin-right: 20px; }
+  .control-menu-top .title-paket::before {
+    content: "Paket";
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    color: #878787;
+    letter-spacing: 2px;
+    position: relative;
+    top: 5px; }
+  .control-menu-top .title-paket {
+    position: relative;
+    top: -2px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 20px;
+    transition: 300ms all ease; }
+
+.background-section-paket {
+  background-color: #f3f3f3; }
+
+.left-content-paket {
+  position: relative;
+  top: 80px;
+  text-align: right;
+  padding-right: 40px; }
+  .left-content-paket .paket-katering-title::before {
+    content: "PAKET";
+    display: block;
+    position: relative;
+    top: -10px;
+    color: #252525;
+    letter-spacing: 5px;
+    font-size: 27px;
+    font-family: 'Work Sans';
+    font-weight: 600; }
+  .left-content-paket .paket-katering-title {
+    color: #fd6f00;
+    font-size: 45px;
+    margin-bottom: 25px; }
+  .left-content-paket .content-section {
+    position: relative;
+    right: -110px;
+    font-family: 'Work Sans';
+    font-weight: 300;
+    width: 400px;
+    font-color: #878787;
+    font-size: 20px;
+    margin-bottom: 60px; }
+  .left-content-paket .foo-button {
+    display: inline-block;
+    position: relative; }
+
+[class^='paket-box-'] {
+  width: 38%;
+  float: left;
+  background-color: white;
+  padding: 25px;
+  margin: 0 15px;
+  display: inline-block;
+  border-radius: 3px;
+  border: 1px solid #dcdbd9; }
+  [class^='paket-box-'] .preview-paket {
+    position: relative;
+    top: -25px;
+    left: -25px;
+    width: 287px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px; }
+  [class^='paket-box-'] .title-box-katering::before {
+    content: "Caterings";
+    color: #50d735;
+    font-size: 14px;
+    display: block; }
+  [class^='paket-box-'] .title-box-katering {
+    font-size: 20px;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    margin-bottom: 10px; }
+  [class^='paket-box-'] .content-paket {
+    margin-bottom: 10px; }
+  [class^='paket-box-'] .harga-paket::before {
+    content: "Harga mulai dari";
+    color: #878787;
+    font-size: 14px;
+    display: block;
+    font-family: 'Work Sans';
+    font-weight: 300; }
+  [class^='paket-box-'] .harga-paket {
+    margin-bottom: 10px;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 20px; }
+    [class^='paket-box-'] .harga-paket .per-hari {
+      font-size: 15px; }
+
+.separator {
+  position: relative;
+  margin: 0 auto;
+  width: 1160px;
+  border-top: 5px dotted #dcdbd9; }
+
+.paket-acara-box {
+  background-color: #484848;
+  margin: 60px 100px; }
+  .paket-acara-box .preview-paket-acara {
+    width: 550px;
+    height: 405px; }
+  .paket-acara-box .control-box-acara {
+    padding: 0px 30px; }
+    .paket-acara-box .control-box-acara .title-paket-acara {
+      color: white;
+      margin-top: 0; }
+    .paket-acara-box .control-box-acara .subset-pake-acara {
+      color: white;
+      font-family: 'Work Sans';
+      font-weight: 500;
+      font-size: 18px;
+      margin-bottom: 20px; }
+    .paket-acara-box .control-box-acara ul {
+      margin-bottom: 40px; }
+    .paket-acara-box .control-box-acara li {
+      line-height: 1.8;
+      color: white;
+      margin-left: -25px; }
+    .paket-acara-box .control-box-acara .pesan-seka {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 17px; }
+
+.background-note {
+  background-color: #ececec;
+  padding-right: 80px;
+  padding-left: 80px; }
+
+.note-icon {
+  width: 80px; }
+
+.note-content-1 {
+  font-family: 'Work Sans';
+  font-weight: 500;
+  margin-top: 10px;
+  font-size: 16px; }
+
+.note-content-1::after {
+  content: "Paket makan siang dengan menu beragam, lengkap, dan pas porsinya";
+  display: block;
+  line-height: 1.7;
+  margin-top: 5px;
+  font-family: 'Work Sans';
+  font-weight: 300;
+  font-size: 11px; }
