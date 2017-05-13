@@ -1,4 +1,4 @@
-## Laravel PHP Framework
+## Caterings
 
 Project kewirausahaan website Caterings, pemesanan katering online daerah semarang yang bekerjasama dengan pelaku usaha di bidang kuliner di semarang.
 
